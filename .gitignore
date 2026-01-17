@@ -52,7 +52,7 @@ build/
 ##################################
 # Spring config (IMPORTANT: secrets)
 ##################################
-application.properties
+
 application.yml
 
 ##################################
