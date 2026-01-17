@@ -20,6 +20,7 @@ public class StudentController {
 
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody Student s) {
+        System.out.print("just reached");
         return ResponseEntity.ok(service.register(s));
     }
 
